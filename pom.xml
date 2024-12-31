@@ -12,7 +12,7 @@
         <failOnMissingWebXml>false</failOnMissingWebXml>
         <vaadin.version>8.0.0.alpha2</vaadin.version>
         <vaadin.plugin.version>${vaadin.version}</vaadin.plugin.version>
-	<jacoco.version>0.8.6</jacoco.version>
+	<cobertura.version>1.17</coberuta.version>
     </properties>
 
     <repositories>
@@ -195,9 +195,9 @@
 		</configuration>
 	    </plugin>
 	    <plugin>
-  		<groupId>org.jacoco</groupId>
-  		<artifactId>jacoco-maven-plugin</artifactId>
-  		<version>0.8.6</version>
+  		<groupId>org.coberuta</groupId>
+  		<artifactId>coberuta-maven-plugin</artifactId>
+  		<version>1.17</version>
 		<extensions>true</extensions>
 		<executions>
 			<execution>
